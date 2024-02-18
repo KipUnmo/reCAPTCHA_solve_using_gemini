@@ -71,8 +71,8 @@ def main(path_to_img, output_folder, word_to_contain):
         print("Request new reCAPTCHA images") #Your logic to request new reCAPTCHA images
 
 if __name__ == "__main__":
-    path_to_img = "testCaptcha04.jpg"
-    output_folder = "output_images"
-    word_to_contain = "a crosswalk"
+    path_to_img = "PATH/TO/IMAGE"
+    output_folder = "PATH/TO/THE/OUTPUT_FOLDER"
+    word_to_contain = "OBJECT_TO_LOOK_FOR"
 
     main(path_to_img, output_folder, word_to_contain)
